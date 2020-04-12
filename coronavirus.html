@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Bangladesh real-time corona update">
   <meta name="author" content="bdmeter.info">
+  <link rel="icon" type="image/x-icon" href="img/logo-1.png">
 
- <title>BDmeter - Bangladesh total 424 affected & 33 death cases. Countrywide lockdown until Apr 25, 2020.</title>
-  
+    <title>BDmeter - Bangladesh total 621 affected & 34 death cases. Countrywide lockdown until Apr 25, 2020.</title>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,15 +19,30 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+    
+    
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163333643-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  </head>
+    gtag('config', 'UA-163333643-1');
+    </script>
 
-  <body>
+</head>
+
+<body>
       <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="https://bdmeter.info">BDmeter</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="https://bdmeter.info">
+            <img src="img/logo-1.png" alt="Logo" style="width:40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -128,51 +144,82 @@
             </ul>
           </div>
         </nav>
+        </div>
+        </div>
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
+            <h1 class="h2">COVID-19 Status Bangladesh</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
                   
-                  Share - 
+                  Share:
                   
                   
                  <!-- Twitter (url, text, @mention) -->
-<a href="https://twitter.com/share?url=https://bdmeter.info/coronavirus.html">
-    Twitter
-</a> .
+                <a href="https://twitter.com/share?url=https://bdmeter.info/coronavirus.html">Twitter</a> .
 
-<!-- Facebook (url) -->
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://bdmeter.info/coronavirus.html">
-    Facebook
-</a>.
+                <!-- Facebook (url) -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://bdmeter.info/coronavirus.html">Facebook</a>.
 
-<!-- Reddit (url, title) -->
-<a href="https://reddit.com/submit?url=https://bdmeter.info/coronavirus.html">
-    Reddit
-</a>.
+                <!-- Reddit (url, title) -->
+                <a href="https://reddit.com/submit?url=https://bdmeter.info/coronavirus.html">
+                    Reddit
+                </a>.
 
-<!-- LinkedIn (url, title, summary, source url) -->
-<a href="https://www.linkedin.com/shareArticle?url=https://bdmeter.info/coronavirus.html">
-    LinkedIn
-</a>.
+                <!-- LinkedIn (url, title, summary, source url) -->
+                <a href="https://www.linkedin.com/shareArticle?url=https://bdmeter.info/coronavirus.html">
+                    LinkedIn
+                </a>.
 
-<!-- Email (subject, body) -->
-<a href="mailto:?subject=Bangladesh Coronavirus Update&amp;body=https://bdmeter.info/coronavirus.html">
-    Email
-</a>
+                <!-- Email (subject, body) -->
+                <a href="mailto:?subject=Bangladesh Coronavirus Update&amp;body=https://bdmeter.info/coronavirus.html">
+                  Email
+                </a>
                 
               </div>
               
             </div>
           </div>
 
-          <div class="label-counter" id="page-top">COVID-19 Coronavirus Pandemic - Bangladesh</div>
-          <br>
+          
+          
+          
+          
+            <table class="table table-striped table-sm" style="height: 130px; width: 350px;">
+                <tbody>
+                    <tr>
+                        <td><strong>Updated on 12-04-2020</strong></td>
+                        
+                        <td><strong>Total</strong></td>
+                    </tr>
+                    <tr>
+                        <td>COVID-19 test conducted in last 24 hours</td>
+                        
+                        <td>1,340</td>
+                    </tr>
+                    <tr>
+                        <td>Total COVID-19 test conducted</td>
+                        
+                        <td>9,653</td>
+                    </tr>
+                    <tr>
+                        <td>COVID-19 positive cases in last 24 hours</td>
+                        
+                        <td>139</td>
+                    </tr>
+                    <tr>
+                        <td>COVID-19 Total cases</td>
+                        
+                        <td>621</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <br>         
           
 
-          <p>Table: COVID-19 Confirmed cases in Bangladesh District (up to April 10, 2020)</p>
+        <p><strong>Table: COVID-19 Confirmed cases in Bangladesh District (up to April 12, 2020)</strong></p>
           <div class="table-responsive">
             <table class="table table-striped table-sm">
               <thead>
@@ -184,9 +231,6 @@
                   <th>Total Deaths</th>
                   <th>Total Recovered</th>
 
-                  <th>Death (%)</th>
-                  <th>Recovery (%)</th>
-
                   <th>New Cases</th>
                   <th>New Recovered</th>
                   <th>New Deaths</th>
@@ -194,8 +238,9 @@
                   <th>Active Cases</th>
                   <th>Critical Cases</th>
                   <th>Total Tests</th>
-
-                  <th>Suspected Cases</th>
+                  
+                  <th>Death (%)</th>
+                  <th>Recovery (%)</th>
                   
 
                 </tr>
@@ -207,40 +252,21 @@
                   <td>All </td>
 
                   
-                  <td>424</td>
-                  <td>27</td>
-                  <td>33</td>
-                  <td></td>
-                  <td></td>
-                  
+                  <td>621</td>
+                  <td>34</td>
+                  <td>39</td>
 
-                  <td>+94</td>
-                  <td>0</td>
-                  <td>+6</td>
+                  <td>+139</td>
+                  <td>+4</td>
+                  <td>+3</td>
 
-                  <td>364</td>
+                  <td>548</td>
                   <td>1</td>
+                  <td>9,653</td>
                   
-                  <td>7,359</td>
-                  <td></td>
+                  <td>6.2</td>
+                  <td>7.5</td>
                 </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -248,8 +274,7 @@
                 <tr>
                   <td>Dhaka</td>
                   <td>Dhaka City </td>
-                  <td>196</td>
-                  <td></td>
+                  <td>237</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -264,8 +289,7 @@
                 <tr>
                   <td>Dhaka</td>
                   <td>Narayanganj</td>
-                  <td>59</td>
-                  <td></td>
+                  <td>75</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -280,8 +304,7 @@
                 <tr>
                   <td>Dhaka</td>
                   <td>Dhaka (District)</td>
-                  <td>13</td>
-                  <td></td>
+                  <td>16</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -296,8 +319,22 @@
                 <tr>
                   <td>Dhaka</td>
                   <td>Madaripur</td>
-                  <td>11</td>
+                  <td>13</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Dhaka</td>
+                  <td>Munshigonj</td>
+                  <td>8</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -323,13 +360,11 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Dhaka</td>
                   <td>Manikganj</td>
                   <td>3</td>
-                  <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -355,13 +390,11 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Dhaka</td>
                   <td>Gazipur</td>
-                  <td>2</td>
-                  <td></td>
+                  <td>6</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -387,7 +420,6 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Dhaka</td>
@@ -403,13 +435,26 @@
                   <td></td>
                   <td></td>
                   <td></td>
+                </tr>
+                <tr>
+                  <td>Dhaka</td>
+                  <td>Gopalganj</td>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                 </tr>
                 <tr>
                   <td>Dhaka</td>
                   <td>Kishoreganj</td>
-                  <td>1</td>
-                  <td></td>
+                  <td>7</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -435,7 +480,6 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Dhaka</td>
@@ -451,8 +495,23 @@
                   <td></td>
                   <td></td>
                   <td></td>
+                </tr>
+                <tr>
+                  <td>Dhaka</td>
+                  <td>Keraniganj</td>
+                  <td>1</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                 </tr>
+                
                 
 
 
@@ -490,7 +549,6 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
 
 
@@ -518,8 +576,7 @@
                 <tr>
                   <td>Chittagong</td>
                   <td>Chittagong</td>
-                  <td>9</td>
-                  <td></td>
+                  <td>6</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -534,8 +591,7 @@
                 <tr>
                   <td>Chittagong</td>
                   <td>Cumilla</td>
-                  <td>4</td>
-                  <td></td>
+                  <td>5</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -552,6 +608,20 @@
                   <td>Cox's bazar</td>
                   <td>1</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Chittagong</td>
+                  <td>Chandpur</td>
+                  <td>2</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -602,13 +672,11 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Sylhet</td>
                   <td>Moulovi Bazar</td>
                   <td>1</td>
-                  <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -650,8 +718,7 @@
                 <tr>
                   <td>Rangpur</td>
                   <td>Gaibandha</td>
-                  <td>8</td>
-                  <td></td>
+                  <td>5</td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -677,11 +744,114 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Rangpur</td>
                   <td>Nilphamari</td>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <tr>
+                  <td>Mymensingh</td>
+                  <td>Mymensingh</td>
+                  <td>5</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Mymensingh</td>
+                  <td>Jamalpur</td>
+                  <td>3</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                 <tr>
+                  <td>Mymensingh</td>
+                  <td>Sherpur</td>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <tr>
+                  <td>Barisal</td>
+                  <td>Potuakhali</td>
                   <td>1</td>
                   <td></td>
                   <td></td>
@@ -693,83 +863,6 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
-                </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <tr>
-                  <td>Mymensingh</td>
-                  <td>Mymensingh</td>
-                  <td>4</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <tr>
-                  <td>Barisal</td>
-                  <td>Barisal</td>
-                  <td>0</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
                 </tr>
 
 
@@ -797,7 +890,6 @@
                   <td>Rajshahi</td>
                   <td>Rajshahi</td>
                   <td>0</td>
-                  <td></td>
                   <td></td>
                   <td></td>
                   <td></td>
@@ -851,34 +943,42 @@
 
 
 
+        <div>
+            <div class="section-heading">
+
+                <h2>How to protect yourself against COVID-19?</h2>
+
+            </div>
+            <iframe width="425" height="204" src="https://www.youtube.com/embed/gcfaqvNDDwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+            </iframe>
+        </div>
+
+
+<br><br>
 
 
 
 
+<div>
+    <h4>Sources</h4>
+    1. <a href="https://www.who.int/bangladesh">World Health Organization (WHO)</a>
+    <br>
+    2. <a href="https://www.iedcr.gov.bd">Institute of Epidemiology, Disease Control and Research, Bangladesh</a>
+    <br>
+    3. <a href="https://www.somoynews.tv">Somoy News, Bangladesh</a>
+    <br>
+    
+    
+    
+</div>
+
+
+<br><br><br>
 
 
 
+</main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-      </div>
-    </div>
 
 
 
@@ -929,9 +1029,9 @@
       var myChartCase = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: ["Mar 08", "Mar 09", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 01", "Apr 02", "Apr 03", "Apr 04", "Apr 05", "Apr 06", "Apr 07", "Apr 08", "Apr 09", "Apr 10", ],
+          labels: ["Mar 08", "Mar 09", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 01", "Apr 02", "Apr 03", "Apr 04", "Apr 05", "Apr 06", "Apr 07", "Apr 08", "Apr 09", "Apr 10", "Apr 11", "Apr 12", ],
           datasets: [{
-            data: [3, 3, 3, 3, 3, 3, 5, 5, 8, 10, 14, 18, 20, 24, 27, 33, 39, 39, 44, 48, 48, 48, 49, 51, 54, 56, 61, 70, 88, 123, 164, 218, 330, 424],
+            data: [3, 3, 3, 3, 3, 3, 5, 5, 8, 10, 14, 18, 20, 24, 27, 33, 39, 39, 44, 48, 48, 48, 49, 51, 54, 56, 61, 70, 88, 123, 164, 218, 330, 424, 482, 621],
             lineTension: 0,
             backgroundColor: 'transparent',
             borderColor: '#007bff',
@@ -958,9 +1058,9 @@
       var myChartDeath = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: ["Mar 08", "Mar 09", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 01", "Apr 02", "Apr 03", "Apr 04", "Apr 05", "Apr 06", "Apr 07", "Apr 08", "Apr 09", "Apr 10", ],
+          labels: ["Mar 08", "Mar 09", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 01", "Apr 02", "Apr 03", "Apr 04", "Apr 05", "Apr 06", "Apr 07", "Apr 08", "Apr 09", "Apr 10", "Apr 11", "Apr 12", ],
           datasets: [{
-            data: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 8, 9, 12, 17, 20, 21, 27],
+            data: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 8, 9, 12, 17, 20, 21, 27, 30, 34],
             lineTension: 0,
             backgroundColor: 'transparent',
             borderColor: '#ff0000',
@@ -982,41 +1082,6 @@
         }
       });
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   </body>
